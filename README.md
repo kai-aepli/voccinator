@@ -8,6 +8,7 @@ A small vocabulary trainer that runs in your terminal. You make your own learnse
 * Add more words to a learnset you already made
 * Show everything that is inside a learnset
 * Write practise, where you get a word and have to type the definition
+* Reverse write practise, where you get the definition and have to type the word
 * Delete single words from a learnset
 
 Everything gets saved as CSV files in a folder called LEARNSETS, so you can open them in Excel or a text editor if you want.
@@ -55,6 +56,8 @@ While practising you can type these instead of an answer:
 4. Correct answers are removed from the pile. Wrong answers stay in the pile and appear again later.
 5. Continue until Voccinator tells you that you have defined all words correctly.
 
+You can also choose **Write Practise (Reverse)** to flip the direction: Voccinator shows you the definition and you type the original word. This is useful when you want to practise both ways, for example seeing the French translation and typing the German word.
+
 ### 3. Save and load your progress
 
 Saving and loading happen while you are in **Write Practise**, at the prompt where you enter a definition:
@@ -81,6 +84,7 @@ Your saved progress is restored and you can continue answering definitions. Type
 * **Edit Existing Learnset** adds more word and definition pairs to an existing learnset. Type `exit` when you are finished.
 * **Show Learnset** displays all words and definitions in a learnset.
 * **Write Practise** starts a vocabulary quiz and includes the `save`, `load`, and `exit` commands described above.
+* **Write Practise (Reverse)** works the same way but shows the definition first and asks you to type the word.
 * **Delete Words From Learnset** lets you select and remove one or more words, then asks you to confirm.
 * **Exit** closes Voccinator.
 
